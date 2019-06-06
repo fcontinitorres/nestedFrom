@@ -1,0 +1,11 @@
+
+<div class="container">
+	<div class="row">
+		<%= project.input_field :_destroy, as: :hidden %>
+		<%= link_to 'Delete', '#', class: 'remove_record' %>
+
+		<%= project.input :name %>
+		<%= project.input :number %>
+		<%= project.input :completed %>
+	</div>
+</div>

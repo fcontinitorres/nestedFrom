@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  project: one
+  name: MyString
+  completed: false
+  number: 1
+
+two:
+  project: two
+  name: MyString
+  completed: false
+  number: 1
